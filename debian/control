@@ -1,0 +1,12 @@
+Source: uab-setup-firewall-sbd
+Section: net
+Priority: optional
+Maintainer: Jordi Román Mejias <Jordi.Roman@uab.cat>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+
+Package: uab-setup-firewall-sbd
+Architecture: all
+Depends: ${misc:Depends}, ufw
+Description: Configure ufw on sbd's classroom
+ this package configure ufw on sbd's classroom
